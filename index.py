@@ -128,8 +128,10 @@ while True:
 
   elif opcion == 4:
     latam.generar_graficos()
+  elif opcion ==5:
+    print("Opción 5")
 
-  elif opcion == 5:
+  elif opcion == 7:
     break;
   else:
     print("Opción invalida!")
