@@ -137,6 +137,8 @@ while True:
   elif opcion == 7:
     print("Opción 7")
   elif opcion == 8:
+    print("Opción 8")
+  elif opcion == 9:
     break;
   else:
     print("Opción invalida!")
