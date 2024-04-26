@@ -106,7 +106,9 @@ while True:
   print("2. Vender asiento")
   print("3. Cancelar asiento vendido")
   print("4. Generar graficos")
-  print("5. Salir")
+  print("5. Grafico de contabilidad")
+  print("6. Grafico de ventas")
+  print("7. Salir")
   opcion = int(input("Elige una opción: "))
 
   if opcion == 1:
@@ -131,3 +133,4 @@ while True:
     break;
   else:
     print("Opción invalida!")
+
