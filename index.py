@@ -110,7 +110,8 @@ while True:
   print("6. Grafico de ventas")
   print("7. Grafico de usuarios")
   print("8. Grafico de vuelos")
-  print("9. Salir")
+  print("9. Grafico de vuelos")
+  print("10. Salir")
   opcion = int(input("Elige una opción: "))
 
   if opcion == 1:
@@ -139,6 +140,8 @@ while True:
   elif opcion == 8:
     print("Opción 8")
   elif opcion == 9:
+      print("Opción 9")
+  elif opcion == 10:
     break;
   else:
     print("Opción invalida!")
